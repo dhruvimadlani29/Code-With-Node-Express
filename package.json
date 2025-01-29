@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Code with node and express",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +19,13 @@
   "homepage": "https://github.com/dhruvimadlani29/Code-With-Node-Express#readme",
   "dependencies": {
     "express": "^5.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2"
+  },
+  "prettier": {
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
   }
 }
