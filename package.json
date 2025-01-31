@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/dhruvimadlani29/Code-With-Node-Express#readme",
   "dependencies": {
-    "express": "^5.0.0"
+    "express": "^5.0.0",
+    "zod": "^3.24.1"
   },
   "devDependencies": {
     "prettier": "^3.4.2"

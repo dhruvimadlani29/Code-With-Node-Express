@@ -1,6 +1,6 @@
 import express from 'express';
+import { PORT } from './env.js';
 const app = express();
-const PORT = process.env.PORT;
 app.get('/', (req, res) => res.send('Hello World'));
 app.get('/form', (req, res) => {
   return res.send(`
